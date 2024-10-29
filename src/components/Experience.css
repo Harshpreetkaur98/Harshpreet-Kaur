@@ -1,0 +1,208 @@
+.experience{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+
+h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.experience-section {
+  background-color: black;
+  color: white;
+}
+
+.experience-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.nav-button.left {
+  left: 15px;
+}
+
+.nav-button.right {
+  right: 15px;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.experience-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 0 50px;
+}
+
+.experience-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.experience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.experience-blocks{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.experience-block {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.experience-block:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  min-width: 60%;
+  min-height: 60%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*  FOR EXPERIENCE */
+
+
+.experience-block.projects {
+  width: 320px;
+  height: 174px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.experience-block.projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* FOR EDUCATION */
+
+.experience-block.education {
+  width: 320px;
+  height: 174px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.experience-block.education img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.experience-content {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.experience-title {
+  font-size: 2em;
+  color: #333;
+}
+
+.experience-overview {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.experience-highlight {
+  margin-bottom: 20px;
+}
+
+.highlight-title {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.highlight-content {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.highlight-content ul {
+  padding-left: 20px;
+}
+
+.experience-anticipated-title {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.experience-anticipated {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+
+
+

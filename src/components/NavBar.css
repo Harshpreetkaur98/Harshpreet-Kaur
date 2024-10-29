@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px); 
+  padding: 10px 0;
+  position: fixed; 
+  width: 100%;
+  z-index: 3; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.harshpreet-logo {
+  width: 100%; 
+  height: auto;
+  fill: #E50914; 
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white; 
+  font-weight: lighter;
+}
+
+.nav-links a:hover {
+  color: red;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+}
+
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden; 
+  z-index: 1; 
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+
+/* General styling for the profile container */
+.profile {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styling for the profile icon */
+.profile a img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Initial hidden state for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+}
+
+/* Styling for each link in the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover effects for the links */
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+/* Show the dropdown content when hovering over the profile container */
+.profile:hover .dropdown-content {
+  display: block;
+}
+
+
+.user-logo-image{
+  padding-left: 30px;
+  padding-right: 30px;
+}

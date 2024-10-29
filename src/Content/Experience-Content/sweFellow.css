@@ -1,0 +1,143 @@
+body{
+    font-family: 'Cascadia Code', 'Iosevka', 'Source Code Pro', monospace;
+}
+
+.modal-content-swe {
+  overflow: auto;
+  padding: 20px;
+  flex: 1;
+  scrollbar-width: none; 
+}
+
+.modal-content-swe::-webkit-scrollbar {
+  display: none; 
+}
+
+.tech-stack-swe {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  justify-content: center; 
+  align-items: center; 
+  margin: 20px 0; 
+}
+
+.tech-item-swe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-logo-swe {
+  max-width: 80px; 
+  height: auto;
+  margin-bottom: 5px; 
+}
+
+.no-bullets-swe {
+  padding: 0;
+  margin: 0;
+}
+
+.no-bullets-swe li {
+  padding-left: 0; 
+  margin-bottom: 10px; 
+  position: relative;
+}
+
+.no-bullets-swe li::before {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-color: transparent; 
+  position: absolute;
+  left: -1.5rem; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.bullets-swe {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bullets-swe li {
+  padding-left: 1.5rem; /* Space for the colored bullet */
+  position: relative;
+  margin-bottom: 10px; /* Space between items */
+}
+
+.bullets-swe li::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+}
+
+.bullets-swe li:nth-child(1)::before {
+  background-color: red !important;
+}
+
+.bullets-swe li:nth-child(2)::before {
+  background-color: orange;
+}
+
+.bullets-swe li:nth-child(3)::before {
+  background-color: yellow;
+}
+
+.bullets-swe li:nth-child(4)::before {
+  background-color: green;
+}
+
+.bullets-swe li:nth-child(5)::before {
+  background-color: blue;
+}
+
+.bullets-swe li:nth-child(6)::before {
+  background-color: indigo;
+}
+
+.bullets-swe li:nth-child(7)::before {
+  background-color: violet;
+}
+
+.bullets-swe li:nth-child(8)::before {
+  background-color: pink;
+}
+
+.bullets-swe li:nth-child(9)::before {
+  background-color: teal;
+}
+
+.bullets-swe li:nth-child(10)::before {
+  background-color: gold;
+}
+
+h2 {
+  font-size: 2rem !important;
+  color: aquamarine;
+  font-weight: bolder;
+  font-family: 'Cascadia Code', 'Iosevka', 'Source Code Pro', monospace;  font-weight: bolder;
+}
+
+h3{
+    color: aquamarine !important;
+    font-size: 1.5rem !important;
+}
+
+.subsub-heads-swe{
+  color: aquamarine;
+}

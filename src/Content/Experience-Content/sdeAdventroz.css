@@ -1,0 +1,55 @@
+/* sdeAdventroz.css */
+h2.main-header-sde {
+    font-size: 2em;
+    font-weight: bold;
+    color: red; /* Dark Blue Gray */
+    margin-bottom: 10px;
+}
+
+h3.sub-heads-sde {
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: rgb(183, 42, 42) !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p.overview-sde {
+    font-size: 1em;
+    color: #3f7bb8; /* Dark Blue Gray */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul.no-bullets-sde {
+    list-style-type: disc !important;
+    padding: 0;
+    margin: 0;
+}
+
+ul.no-bullets-sde li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+.tech-stack-sde {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 20px 0; /* Margin for spacing around the tech stack */
+}
+
+.tech-item-sde {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items horizontally */
+}
+
+.tech-logo {
+    max-width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 5px; /* Space between image and text */
+}
