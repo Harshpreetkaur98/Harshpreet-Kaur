@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Route, Routes } from 'react-router-dom';
 import Navbar from './components/NavBar';
 import './App.css'; 
 import Experience from './components/Experience';
@@ -10,6 +10,7 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
+import 
 
 const App = () => {
   return (
