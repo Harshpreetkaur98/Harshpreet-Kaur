@@ -10,7 +10,6 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
-import 
 
 const App = () => {
   return (
